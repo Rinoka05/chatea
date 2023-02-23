@@ -1,0 +1,199 @@
+.whitespace{
+	& .container{
+		height: 150px;
+	}	
+}
+.aboutus {
+	//margin: 150px 0 0 0;
+
+	& .container{
+	}
+}
+.aboutus__title {
+	padding: 33px 0 0 0;
+	font-family: Montserrat;
+	font-size: 35px;
+	font-weight: 800;
+	line-height: 43px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+.aboutus__row {
+	margin: 95px 0 0 0;
+	padding: 0 11%;
+	//height: 581px;
+	display: flex;
+}
+.aboutus__column {
+	margin: 0 auto;
+
+	&_1{
+		//max-width: 32.4%;
+	}
+
+	&_2{
+		max-width: 43.5%;
+		//overflow: hidden;
+		margin: 0 0 0 24px;
+	}
+
+}
+.aboutus__image {
+
+	width: 100%;
+	& img{
+		width: 100%;
+	}
+}
+.aboutus__body {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.aboutus__text {
+	flex: 1 1 auto;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 800;
+	line-height: 29px;
+	letter-spacing: 0em;
+	text-align: left;
+	//max-width: 200px;
+}
+
+
+.aboutus__socwebrow {
+	display: flex;
+	margin: 10px -25px 0 -25px;
+}
+.aboutus__socweb {
+	background: #D9D9D9;
+	border-radius: 50%;
+	padding: 12px;
+	max-width: 120px;
+	display: flex;
+	margin: 0 25px;
+//	padding: 0 25px;
+	& a{
+		width: 100%;
+		display: block;
+		margin: auto 0;
+	}
+}
+
+@media (max-width: 2560px) {
+	.aboutus__column_2{
+		//margin: 0 0 0 -100px;
+	}
+	.aboutus__text{
+		font-size: 39px;
+		line-height: 45px;
+	}
+}
+
+@media (max-width: 1690px) {
+	.aboutus__text{
+		font-size: 36px;
+		line-height: 35px;
+	}
+}
+
+@media (max-width: 1440px) {
+	.aboutus__text{
+		font-size: 34px;
+		line-height: 30px;
+	}
+	.aboutus__socweb{
+		max-width: 90px;
+		max-height: 90px;
+		margin: 0 0 0 25px;
+		& img{
+			width: 100%;
+		}
+	}
+}
+
+@media (max-width: 1330px) {
+	.aboutus__text{
+		font-size: 30px;
+		line-height: 25px;
+	}
+}
+
+
+@media (max-width: 1200px) {
+	.aboutus__text{
+		font-size: 26px;
+		line-height: 25px;
+	}
+	.aboutus__socweb{
+		max-width: 75px;
+		max-height: 75px;
+		padding: 6px;
+		margin: 0 0 0 25px;
+		& img{
+			width: 100%;
+		}
+	}
+}
+
+.aboutus__downtext {
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.aboutus__inforow{
+	padding: 0 0 42px 0;
+	margin: 34px 0 0 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+@media (max-width: 1024px) {
+	.aboutus__text{
+		font-size: 24px;
+		line-height: 25px;
+	}	
+	.aboutus__socweb{
+		max-width: 60px;
+		max-height: 60px;
+		padding: 6px;
+		margin: 0 0 0 25px;
+		& img{
+			width: 100%;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.aboutus__row{
+		 display: block;
+		 margin: 15px 0 0 0;
+	}
+	.aboutus__column_2{
+		max-width: 100%;
+		margin: 10px 20px 0 20px;
+	}
+	.aboutus__inforow{
+		display: block;
+		// /display: none;
+		margin: 25px 0 0 55px;
+		//margin: inherit;
+		& div{
+			margin: 5px 0 0 0;
+		}
+	}
+}
+
+@media (max-width: 520px) {
+	.aboutus__row{
+		width: 100%;
+		padding: 0 10px;
+	}
+	.aboutus__text{
+		font-size: 20px;
+	}
+}

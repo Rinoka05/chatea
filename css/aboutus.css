@@ -1,0 +1,160 @@
+.aboutus__title {
+  padding: 33px 0 0 0;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.aboutus__row {
+  margin: 95px 0 0 0;
+  padding: 0 11%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.aboutus__column {
+  margin: 0 auto;
+}
+.aboutus__column_2 {
+  max-width: 43.5%;
+  margin: 0 0 0 24px;
+}
+
+.aboutus__image {
+  width: 100%;
+}
+.aboutus__image img {
+  width: 100%;
+}
+
+.aboutus__body {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.aboutus__text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.aboutus__socwebrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px -25px 0 -25px;
+}
+
+.aboutus__socweb {
+  background: #D9D9D9;
+  border-radius: 50%;
+  padding: 12px;
+  max-width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 25px;
+}
+.aboutus__socweb a {
+  width: 100%;
+  display: block;
+  margin: auto 0;
+}
+
+@media (max-width: 2560px) {
+  .aboutus__text {
+    font-size: 39px;
+    line-height: 45px;
+  }
+}
+@media (max-width: 1690px) {
+  .aboutus__text {
+    font-size: 36px;
+    line-height: 35px;
+  }
+}
+@media (max-width: 1440px) {
+  .aboutus__text {
+    font-size: 34px;
+    line-height: 30px;
+  }
+  .aboutus__socweb {
+    max-width: 90px;
+    max-height: 90px;
+    margin: 0 0 0 25px;
+  }
+  .aboutus__socweb img {
+    width: 100%;
+  }
+}
+@media (max-width: 1330px) {
+  .aboutus__text {
+    font-size: 30px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 1200px) {
+  .aboutus__text {
+    font-size: 26px;
+    line-height: 25px;
+  }
+  .aboutus__socweb {
+    max-width: 75px;
+    max-height: 75px;
+    padding: 6px;
+    margin: 0 0 0 25px;
+  }
+  .aboutus__socweb img {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .aboutus__text {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .aboutus__socweb {
+    max-width: 60px;
+    max-height: 60px;
+    padding: 6px;
+    margin: 0 0 0 25px;
+  }
+  .aboutus__socweb img {
+    width: 100%;
+  }
+}
+.aboutus__downtext {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.aboutus__inforow {
+  padding: 0 0 42px 0;
+  margin: 34px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
