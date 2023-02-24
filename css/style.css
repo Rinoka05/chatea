@@ -765,10 +765,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .aboutus__image {
+  height: 100%;
   width: 100%;
+  position: relative;
 }
 .aboutus__image img {
+  height: 100%;
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .aboutus__body {
